@@ -1,0 +1,17 @@
+.verticalgridline {
+	width: 1px;
+	height: 100vh;
+	position: absolute;
+	transform: translate(-50%, 0);
+	background: #000000;
+	z-index: 1;
+}
+
+.horizontalgridline {
+	width: 100vw;
+	height: 1px;
+	position: absolute;
+	transform: translate(0, -50%);
+	background: #000000;
+	z-index: 1;
+}
